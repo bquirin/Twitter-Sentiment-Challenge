@@ -5,10 +5,10 @@ import csv
 from textblob import TextBlob
 
 #Authenticate using keys and tokens
-consumer_key = 'XLv0LwpVETtsZuuLlKY8ezmeK'
-consumer_secret = '51aeTr2jFdcZrhIeAYXiVFpu4YsBvHg849dSTshOuQQ278Tc3u'
-access_token = '1087728456220270597-SntmBaljZjXRebUPGQ7UDRxxLEXCL2'
-access_token_secret = 'mt299tS9f60O5ANktIg3VI4n3ch4w4yVEqANgTmjQVzil'
+consumer_key = 'ENTER CONSUMER KEY'
+consumer_secret = 'ENTER CONSUMER SECRET KEY'
+access_token = 'ENTER TOKEN KEY'
+access_token_secret = 'ENTER TOKEN SECRET KEY'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
