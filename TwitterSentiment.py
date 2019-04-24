@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tweepy
-import csv
 from textblob import TextBlob
 
 # Authenticate using keys and tokens
